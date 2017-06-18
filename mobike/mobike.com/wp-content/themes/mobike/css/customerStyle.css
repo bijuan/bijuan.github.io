@@ -1,0 +1,308 @@
+.grayLineBtn{      
+	background: #ededed !important;
+}
+.loginRegister {
+  display: inline-block;
+  color: #fff;
+  margin-left: 30px;
+}
+.v-align-transform .loginRegister{
+  margin: 0;
+}
+.headerRegisterVIP {
+  color: #f05b48;
+}
+.outOfSight .loginRegister{
+  color: #333;
+}
+.loginRegister span {
+  cursor: pointer;
+}
+.mclearfix:after {
+  visibility: hidden;
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0px;
+  font-size: 0px;
+}
+.mobikePop{
+  margin-left:-240px; 
+  width:480px;
+  /*height:300px;*/
+  padding:0px;
+  background-color:#fff;
+  display:none;
+  z-index:999;
+  position:fixed;
+  top:20%;
+  left:50%;
+}
+.mobileStyle.mobikePop{
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);   /* IE 9 */
+  -moz-transform:translate(-50%, -50%);  /* Firefox */
+  -webkit-transform:translate(-50%, -50%); /* Safari 和 Chrome */
+  -o-transform:translate(-50%, -50%);
+}
+.mobikePop .popHead {
+  height: 35px;
+}
+.mobikePop .popHead .closePop {
+  width: 20px;
+  height: 20px;
+  margin: 15px 15px 0 0;
+  float: right;
+  text-indent: -9999px;
+  cursor: pointer;
+  background: url("../img/close.png") no-repeat;
+  background-size: contain;
+}
+.mobileStyle.mobikePop .popHead .closePop {
+  width: 2rem;
+  height: 2rem;
+}
+.mobikePop .popContent {
+  height: 265px;
+  text-align: center;
+}
+.mobikePop .popContent.secStep, .mobikePop .popContent.thirdStep{
+  display: none;
+}
+.mobileStyle.mobikePop .popContent {
+  height: 35vh;
+}
+.mobikePop .popContent p{
+  font-size: 18px;
+  color: #1a1a1a;
+  margin: 0;
+}
+.mobileStyle.mobikePop .popContent p{
+  font-size: 1.8rem;
+  line-height: 3vh;
+}
+.mobikePop .popContent input[type="button"] {
+  cursor: pointer;
+  color: #fff;
+  background: #f05b48;
+  border: none;
+  width: 75%;
+  margin: 0;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  text-shadow: none;
+}
+.mobikePop .popContent.alertCharge input[type="button"]{
+  width: 35%;
+}
+.mobikePop .firstStep input[type="button"]{
+  width: 75%;
+  margin: 0 5%;
+} 
+.mobikePop .popContent input[type="button"]:hover {
+  box-shadow: none;
+}
+.mobikePop .popContent input[type="button"] {
+  font-size: 14px;
+  margin-top: 45px;
+  line-height: 3.3em;
+}
+.mobileStyle.mobikePop .popContent input[type="button"] {
+  font-size: 1.5rem;
+}
+.mobileStyle.mobikePop .popContent.firstStep input[type="button"] {
+  margin: 0;
+}
+.mobikePop .firstStep{
+  display: block;
+}
+.mobikePop .firstStep p{
+  padding-top: 60px;
+}
+.mobileStyle.mobikePop .popContent.firstStep p{
+  line-height: 15vh;
+  padding-top: 0;
+}
+.mobileStyle.mobikePop .popContent.secStep p{
+  line-height: 10vh;
+}
+.mobikePop .secStep .money {
+  font-size: 36px;
+  color: #f05b48;
+}
+.mobileStyle.mobikePop .secStep .money {
+  font-size: 3rem;
+}
+.mobikePop .thirdStep .smoney {
+  color: #f05b48;
+}
+.mobikePop .popContent .pay p{
+  font-size: 12px;
+  line-height: 3em;
+}
+.mobileStyle.mobikePop .popContent .pay p {
+  font-size: 1rem;
+}
+.pay {
+  margin-top: 40px;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+}
+.weChat,.zhifubao{
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  background: url("../img/wechat.png") no-repeat;
+  background-size: contain;
+}
+.weChat.active {
+  background: url("../img/wechatActive.png") no-repeat;
+}
+.zhifubao {
+  background: url("../img/zhifubao.png") no-repeat;
+}
+.zhifubao.active {
+  background: url("../img/zhifubaoActive.png") no-repeat;
+}
+.mobikePop .popContent.thirdStep {
+  height: 410px;
+}
+.mobileStyle.mobikePop .popContent.thirdStep,.mobileStyle.mobikePop .popContent.secStep {
+  height: 55vh;
+}
+.mobikePop .popContent.thirdStep p {
+ /* padding-top: 20px;*/
+}
+.erCode {
+  width: 194px;
+  height: 194px;
+  margin: 30px;
+  display: inline-block;
+  background: url("../img/erCode.png") no-repeat;
+  background-size: contain;
+}
+.mobileStyle .erCode {
+  width: 40%;
+  height: auto;
+}
+.weixin {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+  background: url("../img/weixin.png") no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.loading {
+  background:#000;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+  filter:Alpha(opacity=30);
+  z-index: 98;
+  display: none;
+}
+/***注册***/
+.mobikePop .popContent.login {
+  height: 415px;
+}
+.mobileStyle.mobikePop .popContent.login {
+  height: 60vh;
+}
+.mobikePop .popContent img.mobikeIcon {
+  width: 19%;
+}
+.mobikePop .popContent input[type="text"] {
+  font-size: 16px;
+  height: 3em;
+  margin: 1em 0;
+  padding: 0 0 0 10px;
+  width: 75%;
+  color: #999;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+  background: none;
+}
+.mobikePop .popContent.login .confirmCode {
+  width: 49%;
+}
+.mobikePop .popContent.login .sureBtn {
+  margin-top: 10px;
+}
+.mobikePop .popContent.login .getCode {
+  margin: 0 0 0 2%;
+  width: 23%;
+  margin-top: 0;
+}
+.mobikePop .popContent.login p{
+  font-size: 30px;
+  line-height: 3em;
+}
+.logoRegister ,.protocol{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logoRegister div ,.protocol div{
+  width: 76%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logoRegister span {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logoRegister img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mobileStyle .logoRegister span{
+  font-size: 2em;
+}
+.protocol span.checkoutProtocol {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+.registerTip {
+  margin: 0 12%;
+}
+.protocol span {
+  display: inline-block;
+  height: 16px;
+  vertical-align: middle;
+  line-height: 16px;
+}
+.protocol span.unselected {
+  background: url("../img/unselected.png") no-repeat;
+  cursor: pointer;
+}
+.protocol span.selected {
+  background: url("../img/selected.png") no-repeat;
+  cursor: pointer;
+}
+.mobikeProtocol {
+  color: #f05b48;
+  cursor: pointer;
+}
+.loginPop {
+  height: 420px;
+}
+.mobileStyle.loginPop {
+  height: 55vh;
+}
+
+
+
